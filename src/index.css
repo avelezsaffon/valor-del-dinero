@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #0B1D2E;
+  --bg-light: #122A40;
+  --bg-card: #162D45;
+  --text: #f0f0f0;
+  --text-light: #c8c8d0;
+  --text-muted: #8a8a9a;
+  --gold: #C9A84C;
+  --gold-light: #D4B96A;
+  --gold-dim: rgba(201, 168, 76, 0.15);
+  --border: rgba(201, 168, 76, 0.2);
+  --shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  --shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.5);
+  --radius: 4px;
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-body: "Jost", system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+::selection {
+  background: var(--gold);
+  color: var(--bg);
+}

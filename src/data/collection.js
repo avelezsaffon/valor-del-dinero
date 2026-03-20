@@ -576,11 +576,11 @@ export const categories = [
       },
       {
         id: 56,
-        title: "Georgia",
-        country: "Georgia",
-        year: "",
+        title: "Tabla Hanke-Krus",
+        country: "Referencia",
+        year: "2012",
         description:
-          "Billete georgiano, testigo de la transición post-soviética del país.",
+          "Tabla de todos los episodios de hiperinflación registrados en la historia. Publicada por Steve Hanke y Nicholas Krus del Cato Institute.",
         image:
           "/images/wix-download/hyperinflation/234486_90896f1b646d4c708dfd4fe5e944a6c5.jpg",
       },
